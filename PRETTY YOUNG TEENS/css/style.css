@@ -1,0 +1,231 @@
+body {
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	padding: 0px;
+	font-family: cursive;
+	background: #C88E8E;
+}
+
+.header {
+	display: grid ;
+	grid-template-columns: 1fr 4fr ;
+	background-color: moccasin ;
+	height: 30vh ;
+	border-radius: 15px ;
+	margin-bottom: 5px ;
+}
+
+.logo {
+	background-image: url(../img/logo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 27vh;
+	margin-top: 6px ;
+	margin-left: 6px ;
+}
+
+.title {
+	
+}
+
+ *{
+	text-decoration:none;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 2px;
+	padding: 0px;
+	margin:	0px;
+	text-align: center;
+}
+
+
+li {
+	padding: 5px;
+	border: 2px black solid;
+	background: tan;
+	text-align: center;
+	color: white;
+	font-family: Verdana;
+	list-style: none;
+	font-size: 10 px;
+	border-radius:5px;
+	transition: all .2s ease-out;
+	margin-bottom: 5px;
+}
+
+li:hover{
+	background-color: sandybrown;
+}
+
+.weh{
+	display:grid ;
+	grid-template-columns: 1fr 1fr 1fr;
+	border: 2px black solid;
+	height: 125vh;
+	grid-gap: 5px ;
+}
+
+.q {
+	background-image: url(../img/1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 122vh;
+}
+.w {
+	background-image: url(../img/2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 122vh;
+}
+
+.e {
+	background-image: url(../img/3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 122vh;
+}
+
+.di {
+	display:grid ;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	border: 2px black solid;
+	height: 100vh;
+	grid-gap: 5px ;
+	margin-top: 5px ;
+}
+
+
+.r {
+	background-image: url(../img/4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 97vh;
+}
+
+.t {
+	background-image: url(../img/5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 97vh;
+}
+
+.y {
+	background-image: url(../img/6.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 97vh;
+}
+
+.u {
+	background-image: url(../img/7.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 97vh;
+}
+.nga {
+	display:grid ;
+	grid-template-columns: 1fr 1fr 1fr ;
+	border: 2px black solid;
+	height: 80vh;
+	grid-gap: 5px ;
+	background-color:#FDFBFB ;
+}
+
+.i {
+	background-image: url(../img/8.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 77vh;
+}
+
+.h {
+	background-image: url(../img/9.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 77vh;
+}
+
+.f {
+	background-image: url(../img/10.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 77vh;
+}
+
+.talaga {
+	display:grid ;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	border: 2px black solid;
+	height: 80vh;
+	grid-gap: 5px ;
+}
+	
+.a {
+	background-image: url(../img/11.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 77vh;
+}
+
+.n {
+	background-image: url(../img/12.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 77vh;
+}
+
+.o {
+	background-image: url(../img/13.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 77vh;
+}
+
+.d {
+	background-image: url(../img/14.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 77vh;
+}
+
+.footer {
+	background: 
+	padding: 5px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,258 @@
+body {
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	padding: 0px;
+	font-family: cursive;
+	background: #FF8A8A ;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.header {
+	display: grid ;
+	grid-template-columns: 1fr 4fr ;
+	background-color: moccasin ;
+	height: 30vh ;
+	border-radius: 15px ;
+	margin-bottom: 5px ;
+}
+
+.logo {
+	background-image: url(../img/logo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 27vh;
+	margin-top: 6px ;
+	margin-left: 6px ;
+}
+
+.title {
+	color: black;
+}
+ul {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 2px;
+	padding: 0px;
+	margin:	0px;
+	text-align: center;
+}
+
+
+li {
+	padding: 5px;
+	border: 2px black solid;
+	background: tan;
+	text-align: center;
+	color: white;
+	font-family: Verdana;
+	list-style: none;
+	font-size: 10 px;
+	border-radius:5px;
+	transition: all .2s ease-out;
+	margin-bottom: 5px;
+}
+
+li:hover{
+	background-color: sandybrown;
+}
+
+* {
+	text-decoration: none;
+}
+
+.intro {
+	border-radius: 5px ;
+	height: 10vh ;
+}
+	
+.md {
+	display: grid ;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	border: 2px black solid;
+	height: 62vh;
+	grid-gap: 5px ;
+}
+
+.f {
+	background-image: url(../img2/1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+}
+
+
+.r {
+	background-image: url(../img2/2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+	margin-bottom: 3px ;
+}
+
+.e {
+	background-image: url(../img2/3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+	margin-bottom: 3px ;
+}
+
+.i {
+	background-image: url(../img2/4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+	margin-bottom: 3px ;
+}
+
+.dy {
+	display:grid ;
+	grid-template-columns: 1fr 1fr 1fr ;
+	border: 2px black solid;
+	height: 62vh;
+	grid-gap: 5px ;
+}
+	
+.a {
+	background-image: url(../img2/5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+}
+
+.n {
+	background-image: url(../img2/6.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+}
+
+.o {
+	background-image: url(../img2/7.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+}
+
+.int {
+	display:grid ;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	border: 2px black solid;
+	height: 62vh;
+	grid-gap: 5px ;
+}
+
+.r {
+	background-image: url(../img2/8.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+}
+
+.s {
+	background-image: url(../img2/9.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+}
+
+.g {
+	background-image: url(../img2/10.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+}
+
+.c {
+	background-image: url(../img2/11.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 60vh;
+	margin-top: 5px ;
+}
+
+.inte {
+	display:grid ;
+	grid-template-columns: 1fr 1fr 1fr ;
+	border: 2px black solid;
+	height: 70vh;
+	grid-gap: 5px ;
+}
+
+.q {
+	background-image: url(../img2/12.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 68vh;
+	margin-top: 5px ;
+
+}
+
+.w {
+	background-image: url(../img2/13.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 68vh;
+	margin-top: 5px ;
+}
+
+.t {
+	background-image: url(../img2/14.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+	height: 68vh;
+	margin-top: 5px ;
+}
+
+
+.footer {
+	background: 
+	padding: 5px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}
+	
